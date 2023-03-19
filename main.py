@@ -33,13 +33,13 @@ async def new_user(info : Request):
     infoDict = dict(infoDict)
 
     prompt = f'''Act like an instructor and content creator, create content for high school students for the following details:
-    Topic or Title : {infoDict["Topic"]}
-    Student grade level : {infoDict["Grade"]}
-    Learning style : {infoDict["Style"]}
-    Learning Speed  : {infoDict["Speed"]}
-    Student interests : {infoDict["Interests"]}
-    Available time : {infoDict["Time"]}
-    Future goals : {infoDict["FutureGoals"]}
+    Topic or Title : {infoDict["topic"]}
+    Student grade level : {infoDict["frade"]}
+    Learning style : {infoDict["style"]}
+    Learning Speed  : {infoDict["speed"]}
+    Student interests : {infoDict["interests"]}
+    Available time : {infoDict["time"]}
+    Future goals : {infoDict["futureGoals"]}
     Note: generate the content structue accordinly to the time line given above?
     '''
 
